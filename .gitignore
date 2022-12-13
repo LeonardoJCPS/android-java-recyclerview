@@ -83,3 +83,26 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# Keystore files
+*.jks
+*.keystore
+
+### Android Patch ###
+gen-external-apklibs
+
+# Android Studio generated files and folders
+.externalNativeBuild/
+output.json
+
+# IntelliJ
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
